@@ -172,6 +172,162 @@ header .account a {
     border: 1px solid #e7ad48;
 }
 
+/*============ КАК РАБОТАЕТ НАШ СЕРВИС ========*/
+
+#howitwork {
+    background-color: #ffffff;
+    color: #394b50;
+    padding-top: 145px;
+    padding-bottom: 160px;
+}
+
+#howitwork .section_header{
+    font-family: 'RobotoBold';
+}
+
+#howitwork p {
+    font-family: 'RobotoRegular';
+    font-size: 13px;
+}
+
+#howitwork .section_header p {
+    font-family: 'RobotoRegular';
+    font-size: 18px;
+    text-transform: none;
+}
+
+#howitwork h4 {
+    font-family: 'RobotoBold';
+    text-transform: uppercase;
+}
+
+#howitwork i {
+    color: #ffbb42;
+}
+
+#howitwork .button {
+    padding-top: 94px;
+}
+
+#howitwork button {
+    height: 46px;
+    width: 200px;
+    font-family: 'RobotoBold';
+    text-transform: uppercase;
+    background-color: #ffbb42;
+    border: none;
+    border-radius: 3px;
+    color: #ffeed8;
+}
+
+/*============== НЕДАВНИЕ ОБЪЯВЛЕНИЯ =====*/
+
+#clipboard {
+    background-color: #e7edf3;
+    padding-top: 137px;
+    color: #394b50;
+}
+
+#clipboard .section_header {
+    font-family: 'RobotoBold';
+    text-transform: uppercase;
+}
+
+#clipboard .section_header p {
+    font-family: 'RobotoRegular';
+    text-transform: none;
+    font-size: 18px;
+}
+
+#clipboard .card {
+    background: #ffffff;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 568px;
+    font-family: 'RobotoRegular';  
+    font-size: 13px;
+    padding-top: 51px;
+    padding-bottom: 51px;
+}
+
+#clipboard .card img {
+    /*margin-bottom: 77px;*/
+    /*padding-left: 30px;*/
+}
+
+#clipboard .bottom {
+    margin-bottom: 152px;
+}
+
+#clipboard .card-text {
+    /*padding-left: 70px;*/
+}
+
+#clipboard .upp {
+    text-transform: uppercase;
+    color: #a9b6ba;
+}
+#clipboard .upp span {
+    color: #f78d58;
+}
+
+/*============  ОТЗЫВЫ КЛИЕНТОВ  =========*/
+
+#comments {
+    background-color: #ffc155;
+    padding-top: 137px;
+    color: #394b50;
+}
+
+#comments .section_header {
+    font-family: 'RobotoBold';
+    text-transform: uppecase;
+}
+
+#comments .ection_header p {
+    font-family: 'RobotoRegular';
+    text-transform: none;
+    font-size: 18px;
+}
+
+#comments .card {
+    background: #ffffff;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 568px;
+    font-family: 'RobotoRegular';
+    font-size: 13px;
+    padding-top: 51px;
+    padding-bottom: 51px;
+}
+
+#comments .bottom {
+    margin-bottom: 152px;
+}
+
+#comments .upp {
+    text-transform: uppercase;
+    color: #a9b6ba;
+}
+
+#comments .upp span {
+    color: #f78d58;
+}
+
+/*============ ФУТЕР ====================*/
+
+footer {
+    background-color: #709dca;
+    color: #ffffff;
+    font-family: 'RobotoRegular';
+}
+
+footer a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff; 
+}
+
 /*============    ШРИФТЫ    ===========*/
 
 /*============    ШРИФТЫ    ===========*/
