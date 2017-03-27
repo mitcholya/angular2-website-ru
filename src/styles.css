@@ -33,6 +33,11 @@ header {
     padding-top:30px;
     font-family: 'RobotoRegular';
     font-size: 14px;
+    height: 80px;
+    /*top: 80px;*//*высота шапки в пикселях*/
+    position: fixed;
+    z-index: 100;
+    width: 100%;
 }
 
 header img {
@@ -102,6 +107,11 @@ header .account a {
     background-color: #ffbb42;
     border: none;
     border-radius:3px;
+}
+
+#main button:hover {
+    background-color: transparent;
+    border: 2px solid #ffbb42;
 }
 
 /*==============   НАШИ ПРЕДЛОЖЕНИЯ ============*/
