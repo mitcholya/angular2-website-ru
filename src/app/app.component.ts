@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { ModalDirective } from 'ng2-bootstrap';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

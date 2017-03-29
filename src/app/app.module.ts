@@ -5,14 +5,22 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { Ng2BootstrapModule } from 'ng2-bootstrap';
+import { ModalModule } from 'ng2-bootstrap';
+
+import { LoginComponent } from './account/login/login.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    Ng2BootstrapModule,
+    ModalModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -348,6 +348,36 @@ footer a {
     color: #ffffff; 
 }
 
+/*=============== ЛОГИН ===============*/
+
+.login input {
+    width:241px;
+    height: 36px;
+    border-radius:3px 0px 3px 0px;
+    background-color:#e8e8e8;
+}
+
+.login input[placeholder] {
+    padding-left: 15px;
+    color:#525252;
+}
+
+.login button {
+    width: 241px;
+    height: 36px;
+    border-radius: 3px;
+    background-color: #f58b19;
+    border: 1px solid #b13a00;
+}
+
+.login .padding {
+    padding: 5px 0px 5px 0px;
+}
+
+.login-orange {
+    color: #da4e08;
+}
+
 /*============    ШРИФТЫ    ===========*/
 
 /*============    ШРИФТЫ    ===========*/
