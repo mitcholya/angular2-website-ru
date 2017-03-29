@@ -75,12 +75,12 @@ header .account a {
 
 #main {
     background-color: #709dca;
-    padding-bottom: 500px;
+    padding-bottom: 60px;
     padding-top: 103px;
     color: #ffffff;
 }
 
-#main h1 {
+#main h3 {
     font-family: 'RobotoBold';
     text-transform: uppercase;
 }
@@ -117,16 +117,20 @@ header .account a {
 /*==============   НАШИ ПРЕДЛОЖЕНИЯ ============*/
 
 #service {
-    padding-top: 50px;
-    padding-bottom: 158px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #ffffff;
     color: #394b50;
+}
+
+#service .inline {
+    display: inline;
 }
 
 .section_header {
     font-family: 'RobotoBold';
     text-transform: uppercase;
-    padding-bottom: 92px;
+    padding-bottom: 12px;
 }
 
 #service .section_header p {
@@ -142,7 +146,13 @@ header .account a {
 
 #service h4 {
     font-family: 'RobotoBold';
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
+    font-size: 16px;
+}
+
+#service i {
+    color: #f5772c;
+    padding: 5px 5px;
 }
 
 #service p {
@@ -187,7 +197,7 @@ header .account a {
 #howitwork {
     background-color: #ffffff;
     color: #394b50;
-    padding-top: 145px;
+    padding-top: 40px;
     padding-bottom: 160px;
 }
 
